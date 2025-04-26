@@ -1,0 +1,54 @@
+.tabNav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
+.tab {
+  text-decoration: none;
+  color: var(--color-text-muted);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: var(--color-surface-light);
+    color: var(--color-text);
+  }
+}
+
+.active {
+  background: var(--color-primary);
+  color: var(--color-text);
+
+  &:hover {
+    background: var(--color-primary-light);
+    color: var(--color-text);
+  }
+}
+
+.logoutButton {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  background: var(--color-error);
+  color: var(--color-text);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background: var(--color-surface-light);
+    color: var(--color-error);
+  }
+}

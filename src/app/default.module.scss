@@ -1,0 +1,57 @@
+.defaultContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface);
+  padding: 2rem;
+}
+
+.content {
+  text-align: center;
+  max-width: 400px;
+  
+  h1 {
+    color: var(--color-text);
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin: 1.5rem 0 1rem;
+  }
+
+  p {
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+  }
+}
+
+.pulsingDot {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background: var(--color-primary);
+  border-radius: 50%;
+}
+
+.loadingBars {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.bar {
+  width: 4px;
+  height: 24px;
+  background: var(--color-primary);
+  border-radius: 2px;
+  transform-origin: bottom;
+}

@@ -1,6 +1,6 @@
-# Kaypak Finder
+# next15 dashboard 
 
-A Next.js application for tracking and finding Kaypak.
+A Next.js dashboard application
 
 ## Environment Variables
 
